@@ -7,7 +7,7 @@ elif a<1000 and a >-1000:
     print('num has 3 digit')
 elif a<10000 and a >-10000:
     print('num has 4 digit')
-elif a<100000and a >-100000:
+elif a<100000 and a >-100000:
     print('num has 5 digit')
 elif a<1000000 and a >-1000000:
     print('num has 6 digit')
