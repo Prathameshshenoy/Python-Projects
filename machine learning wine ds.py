@@ -1,3 +1,6 @@
+#pip install 'scikit-learn' to use this code
+
+#importing
 from sklearn import datasets
 from sklearn import tree
 from sklearn.ensemble import RandomForestClassifier
@@ -7,6 +10,7 @@ features = wine.data
 labels = wine.target
 train_feats, test_feats, train_labels, test_labels = tts(features, labels, test_size=0.2)
 
+#classifier 
 clf =RandomForestClassifier()
 
 #training section:
